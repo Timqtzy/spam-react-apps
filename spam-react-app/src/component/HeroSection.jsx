@@ -9,7 +9,7 @@ function HeroSection() {
         <section className="text-gray-600 body-font">
           <div className="max-w-screen-xl container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
             <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
-              <h1 className="title-font font-semibold text-4xl sm:text-5xl mb-4 font-lg text-gray-900">
+              <h1 className="title-font font-semibold text-4xl sm:text-3xl smd:text-4xl mb-4 font-lg text-gray-900">
                 Empowering <span className="text-customRed">Journalists</span>{" "}
                 for a Better Tomorrow
                 <span className="hidden lg:inline-block"> </span>

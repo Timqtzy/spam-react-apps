@@ -48,7 +48,7 @@ function Home() {
       <div className="pt-12 pb-12">
         <HeroSection />
       </div>
-      <div className="pt-12 pb-24">
+      <div className="pt-12 pb-24 max-w-screen-xl mx-auto">
         {" "}
         <CarouselLogo />
       </div>
@@ -88,7 +88,7 @@ function Home() {
           </div>
         </section>
       </div> */}
-      <div className="pt-12 pb-24">
+      <div className="pt-12 pb-24 max-w-screen-xl mx-auto">
         <section className="text-gray-600 body-font">
           <div className="container px-5 py-24 mx-auto">
             <div className="flex flex-col text-center w-full mb-20">
@@ -100,7 +100,7 @@ function Home() {
               </h1>
             </div>
             <div className="flex flex-wrap -m-4">
-              <div className="p-4 md:w-1/3">
+              <div className="p-4 smd:w-1/3">
                 <div className="flex rounded-lg h-full bg-gray-100 p-8 flex-col transition-all duration-300 hover:shadow-[0_0_15px_rgba(220,38,38,0.3)] hover:-translate-y-1">
                   <div className="flex items-center mb-3">
                     <div className="w-8 h-8 mr-3 inline-flex items-center justify-center rounded-full bg-red-500 text-white flex-shrink-0">
@@ -129,7 +129,7 @@ function Home() {
                   </div>
                 </div>
               </div>
-              <div className="p-4 md:w-1/3">
+              <div className="p-4 smd:w-1/3">
                 <div className="flex rounded-lg h-full bg-gray-100 p-8 flex-col transition-all duration-300 hover:shadow-[0_0_15px_rgba(220,38,38,0.3)] hover:-translate-y-1">
                   <div className="flex items-center mb-3">
                     <div className="w-8 h-8 mr-3 inline-flex items-center justify-center rounded-full bg-red-500 text-white flex-shrink-0">
@@ -159,7 +159,7 @@ function Home() {
                   </div>
                 </div>
               </div>
-              <div className="p-4 md:w-1/3">
+              <div className="p-4 smd:w-1/3">
                 <div className="flex rounded-lg h-full bg-gray-100 p-8 flex-col transition-all duration-300 hover:shadow-[0_0_15px_rgba(220,38,38,0.3)] hover:-translate-y-1">
                   <div className="flex items-center mb-3">
                     <div className="w-8 h-8 mr-3 inline-flex items-center justify-center rounded-full bg-red-500 text-white flex-shrink-0">
@@ -188,7 +188,7 @@ function Home() {
                   </div>
                 </div>
               </div>
-              <div className="p-4 md:w-1/3">
+              <div className="p-4 smd:w-1/3">
                 <div className="flex rounded-lg h-full bg-gray-100 p-8 flex-col transition-all duration-300 hover:shadow-[0_0_15px_rgba(220,38,38,0.3)] hover:-translate-y-1">
                   <div className="flex items-center mb-3">
                     <div className="w-8 h-8 mr-3 inline-flex items-center justify-center rounded-full bg-red-500 text-white flex-shrink-0">
@@ -219,7 +219,7 @@ function Home() {
                 </div>
               </div>
 
-              <div className="p-4 md:w-1/3">
+              <div className="p-4 smd:w-1/3">
                 <div className="flex rounded-lg h-full bg-gray-100 p-8 flex-col transition-all duration-300 hover:shadow-[0_0_15px_rgba(220,38,38,0.3)] hover:-translate-y-1">
                   <div className="flex items-center mb-3">
                     <div className="w-8 h-8 mr-3 inline-flex items-center justify-center rounded-full bg-red-500 text-white flex-shrink-0">
@@ -250,7 +250,7 @@ function Home() {
                 </div>
               </div>
 
-              <div className="p-4 md:w-1/3">
+              <div className="p-4 smd:w-1/3">
                 <div className="flex rounded-lg h-full bg-gray-100 p-8 flex-col transition-all duration-300 hover:shadow-[0_0_15px_rgba(220,38,38,0.3)] hover:-translate-y-1">
                   <div className="flex items-center mb-3">
                     <div className="w-8 h-8 mr-3 inline-flex items-center justify-center rounded-full bg-red-500 text-white flex-shrink-0">
@@ -311,7 +311,7 @@ function Home() {
                 Communities.
                 <span className="hidden lg:inline-block"> </span>
               </h4>
-              <p className="mb-8 leading-relaxed text-left">
+              <p className="mb-8 leading-relaxed text-base">
                 At our organization, we champion the principles of integrity and
                 excellence in journalism. Join us in our mission to promote
                 transparency and accountability in the media.
@@ -345,7 +345,7 @@ function Home() {
           </div>
         </section>
       </div>
-      <div className="pt-12 pb-12">
+      <div className=" max-w-screen-xl mx-auto py-12 px-4">
         <h1 className="sm:text-3xl md:text-3xl lg:text-4xl font-medium title-font mb-4 text-gray-900">
           Frequently Asked Questions
         </h1>
@@ -355,7 +355,7 @@ function Home() {
         </p>
         <AccordionComponent />
       </div>
-      <div className="pt-12 pb-12">
+      <div className="pt-12 pb-12 px-4">
         <section className="text-gray-600 body-font">
           <div className="container mx-auto flex px-5 py-12 md:flex-row flex-col items-center max-w-screen-xl">
             <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
@@ -383,7 +383,7 @@ function Home() {
           </div>
         </section>
       </div>
-      <div className="pt-12 pb-12">
+      <div className="pt-12 pb-12 px-4">
         <Subscribe />
       </div>
     </div>
