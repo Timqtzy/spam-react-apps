@@ -45,13 +45,15 @@ function Home() {
           </section>
         </div>
       </div> */}
-      <div className="pt-12 pb-12">
+      <div className="py-24">
         <HeroSection />
       </div>
-      <div className="pt-12 pb-24 max-w-screen-xl mx-auto">
+      {/*<div className="pt-12 pb-24 max-w-screen-xl mx-auto block s:hidden sm:hidden md:block lg:block">
         {" "}
         <CarouselLogo />
       </div>
+      */}
+
       {/* <div className="pt-28 pb-24">
         <section className="text-gray-600 body-font">
           <div className="container px-5 py-24 mx-auto flex flex-wrap">
@@ -88,8 +90,8 @@ function Home() {
           </div>
         </section>
       </div> */}
-      <div className="pt-12 pb-24 max-w-screen-xl mx-auto">
-        <section className="text-gray-600 body-font">
+      <div className="py-24 mx-auto bg-gray-100">
+        <section className="text-gray-600 body-font max-w-screen-xl mx-auto">
           <div className="container px-5 py-24 mx-auto">
             <div className="flex flex-col text-center w-full mb-20">
               <h2 className="text-sm text-red-500 tracking-widest font-medium title-font mb-1">
@@ -101,9 +103,9 @@ function Home() {
             </div>
             <div className="flex flex-wrap -m-4">
               <div className="p-4 smd:w-1/3">
-                <div className="flex rounded-lg h-full bg-gray-100 p-8 flex-col transition-all duration-300 hover:shadow-[0_0_15px_rgba(220,38,38,0.3)] hover:-translate-y-1">
+                <div className="flex rounded-lg h-full bg-white p-8 flex-col transition-all duration-300 hover:shadow-[0_0_15px_rgba(220,38,38,0.3)] hover:-translate-y-1">
                   <div className="flex items-center mb-3">
-                    <div className="w-8 h-8 mr-3 inline-flex items-center justify-center rounded-full bg-red-500 text-white flex-shrink-0">
+                    <div className="w-8 h-8 mr-3 inline-flex items-center justify-center rounded-full bg-red-500 text-white flex-shrink-0 text-center">
                       <svg
                         fill="none"
                         stroke="currentColor"
@@ -116,7 +118,7 @@ function Home() {
                         <path d="M8 21h8m-4-4v4m-4.5-9.5l-2-2m11 2l2-2M12 3c1.7 0 3 1.3 3 3 0 .8-.3 1.5-.8 2l-.7.7c-.4.4-.5.9-.5 1.3v1h-2v-1c0-.8.3-1.5.8-2l.7-.7c.4-.4.5-.9.5-1.3 0-.6-.4-1-1-1s-1 .4-1 1H9c0-1.7 1.3-3 3-3z" />
                       </svg>
                     </div>
-                    <h2 className="text-gray-900 text-lg title-font font-medium">
+                    <h2 className="text-gray-900 text-lg title-font font-medium text-left">
                       Expertise and Experience{" "}
                     </h2>
                   </div>
@@ -130,7 +132,7 @@ function Home() {
                 </div>
               </div>
               <div className="p-4 smd:w-1/3">
-                <div className="flex rounded-lg h-full bg-gray-100 p-8 flex-col transition-all duration-300 hover:shadow-[0_0_15px_rgba(220,38,38,0.3)] hover:-translate-y-1">
+                <div className="flex rounded-lg h-full bg-white p-8 flex-col transition-all duration-300 hover:shadow-[0_0_15px_rgba(220,38,38,0.3)] hover:-translate-y-1">
                   <div className="flex items-center mb-3">
                     <div className="w-8 h-8 mr-3 inline-flex items-center justify-center rounded-full bg-red-500 text-white flex-shrink-0">
                       <svg
@@ -160,7 +162,7 @@ function Home() {
                 </div>
               </div>
               <div className="p-4 smd:w-1/3">
-                <div className="flex rounded-lg h-full bg-gray-100 p-8 flex-col transition-all duration-300 hover:shadow-[0_0_15px_rgba(220,38,38,0.3)] hover:-translate-y-1">
+                <div className="flex rounded-lg h-full bg-white p-8 flex-col transition-all duration-300 hover:shadow-[0_0_15px_rgba(220,38,38,0.3)] hover:-translate-y-1">
                   <div className="flex items-center mb-3">
                     <div className="w-8 h-8 mr-3 inline-flex items-center justify-center rounded-full bg-red-500 text-white flex-shrink-0">
                       <svg
@@ -175,7 +177,7 @@ function Home() {
                         <path d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z" />
                       </svg>
                     </div>
-                    <h2 className="text-gray-900 text-lg title-font font-medium">
+                    <h2 className="text-gray-900 text-lg title-font font-medium text-left">
                       Extensive Network
                     </h2>
                   </div>
@@ -189,7 +191,7 @@ function Home() {
                 </div>
               </div>
               <div className="p-4 smd:w-1/3">
-                <div className="flex rounded-lg h-full bg-gray-100 p-8 flex-col transition-all duration-300 hover:shadow-[0_0_15px_rgba(220,38,38,0.3)] hover:-translate-y-1">
+                <div className="flex rounded-lg h-full bg-white p-8 flex-col transition-all duration-300 hover:shadow-[0_0_15px_rgba(220,38,38,0.3)] hover:-translate-y-1">
                   <div className="flex items-center mb-3">
                     <div className="w-8 h-8 mr-3 inline-flex items-center justify-center rounded-full bg-red-500 text-white flex-shrink-0">
                       <svg
@@ -220,7 +222,7 @@ function Home() {
               </div>
 
               <div className="p-4 smd:w-1/3">
-                <div className="flex rounded-lg h-full bg-gray-100 p-8 flex-col transition-all duration-300 hover:shadow-[0_0_15px_rgba(220,38,38,0.3)] hover:-translate-y-1">
+                <div className="flex rounded-lg h-full bg-white p-8 flex-col transition-all duration-300 hover:shadow-[0_0_15px_rgba(220,38,38,0.3)] hover:-translate-y-1">
                   <div className="flex items-center mb-3">
                     <div className="w-8 h-8 mr-3 inline-flex items-center justify-center rounded-full bg-red-500 text-white flex-shrink-0">
                       <svg
@@ -251,7 +253,7 @@ function Home() {
               </div>
 
               <div className="p-4 smd:w-1/3">
-                <div className="flex rounded-lg h-full bg-gray-100 p-8 flex-col transition-all duration-300 hover:shadow-[0_0_15px_rgba(220,38,38,0.3)] hover:-translate-y-1">
+                <div className="flex rounded-lg h-full bg-white p-8 flex-col transition-all duration-300 hover:shadow-[0_0_15px_rgba(220,38,38,0.3)] hover:-translate-y-1">
                   <div className="flex items-center mb-3">
                     <div className="w-8 h-8 mr-3 inline-flex items-center justify-center rounded-full bg-red-500 text-white flex-shrink-0">
                       <svg
@@ -284,8 +286,8 @@ function Home() {
           </div>
         </section>
       </div>
-      <div className="pt-12 pb-24">
-        <section className="text-gray-600 body-font bg-customYellow max-w-screen-xl mx-auto rounded-lg ">
+      <div className="py-24 bg-white">
+        <section className="text-gray-600 body-font bg-customYellow max-w-screen-xl mx-auto rounded-lg">
           <div className="container px-5 py-12 mx-auto">
             <div className="flex flex-col text-center w-full mt-2 mb-2">
               <h1 className="sm:text-4xl text-2xl font-medium title-font mb-4 text-gray-900">
@@ -302,7 +304,7 @@ function Home() {
           </div>
         </section>
       </div>
-      <div className="pt-12 pb-24 ">
+      <div className="py-24 bg-gray-100">
         <section className="text-gray-600 body-font">
           <div className="max-w-screen-xl container mx-auto flex px-5 py-12 md:flex-row flex-col items-center">
             <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
@@ -327,7 +329,7 @@ function Home() {
           </div>
         </section>
       </div>
-      <div className="pt-12 pb-12">
+      <div className="py-24">
         <section className="text-gray-600 body-font bg-customYellow max-w-screen-xl mx-auto rounded-lg">
           <div className="container px-5 py-12 mx-auto">
             <div className="flex flex-col text-center w-full mt-2 mb-2">
@@ -345,17 +347,19 @@ function Home() {
           </div>
         </section>
       </div>
-      <div className=" max-w-screen-xl mx-auto py-12 px-4">
-        <h1 className="sm:text-3xl md:text-3xl lg:text-4xl font-medium title-font mb-4 text-gray-900">
-          Frequently Asked Questions
-        </h1>
-        <p className="text-gray-500 dark:text-gray-400 mb-4 sm:mb-4 md:mb-8 lg:mb-10">
-          {" "}
-          We're happy to answer your questions!
-        </p>
-        <AccordionComponent />
+      <div className="mx-auto py-24 px-4 bg-gray-100">
+        <div className="max-w-screen-xl mx-auto">
+          <h1 className="sm:text-3xl md:text-3xl lg:text-4xl font-medium title-font mb-2 text-gray-900 text-center">
+            Frequently Asked Questions
+          </h1>
+          <p className="text-gray-500 dark:text-gray-400 mb-4 sm:mb-4 md:mb-8 lg:mb-10 text-center">
+            {" "}
+            We're happy to answer your questions!
+          </p>
+          <AccordionComponent />
+        </div>
       </div>
-      <div className="pt-12 pb-12 px-4">
+      <div className="py-24 px-4 bg-white">
         <section className="text-gray-600 body-font">
           <div className="container mx-auto flex px-5 py-12 md:flex-row flex-col items-center max-w-screen-xl">
             <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
@@ -383,9 +387,12 @@ function Home() {
           </div>
         </section>
       </div>
+
+      {/*
       <div className="pt-12 pb-12 px-4">
         <Subscribe />
       </div>
+      */}
     </div>
   );
 }

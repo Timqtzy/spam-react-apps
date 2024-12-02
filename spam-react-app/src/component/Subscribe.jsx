@@ -68,7 +68,7 @@ export default function Subscribe() {
           onSubmit={handleSubmit}
           className="flex lg:w-2/3 w-full flex-col mx-auto px-8 px-0"
         >
-          <div className="py-2 w-full">
+          <div className="py-4 w-full">
             <label htmlFor="email" className="leading-7 text-sm text-gray-600">
               Email
             </label>
